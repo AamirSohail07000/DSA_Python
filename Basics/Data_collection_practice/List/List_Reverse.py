@@ -15,3 +15,9 @@ for i in range(len(list1) - 1, -1, -1):  # Loop from last index to 0
     reversed_list.append(list1[i])
 
 print(reversed_list)
+
+
+# Using reverse() Function
+list1 = [1, 2, 3, 4, 5]
+list1.reverse()  # Modifies the list in place
+print(list1)
