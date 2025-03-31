@@ -11,7 +11,7 @@ print(reversed_list)
 list1 = [1, 2, 3, 4, 5]
 reversed_list = []
 
-for i in range(len(list1) - 1, -1, -1):  # Loop from last index to 0
+for i in range(len(list1) - 1, -1, -1):  # Loop from last index to 0 range(start, stop, step) generates numbers from start to stop (excluding stop), moving by step.start = len(list1) - 1,stop = -1,step = -1(This means the loop moves backward)
     reversed_list.append(list1[i])
 
 print(reversed_list)
