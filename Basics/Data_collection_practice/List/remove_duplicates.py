@@ -15,3 +15,9 @@ for num in numbers:
 
 print(unique_numbers)
 
+# Method 3: Using List Comprehension & Dictionary (Preserves Order, Efficient)
+
+numbers = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7]
+unique_numbers = list(dict.fromkeys(numbers))
+print(unique_numbers)
+
