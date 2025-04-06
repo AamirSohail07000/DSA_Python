@@ -12,3 +12,5 @@ my_set.add(60)
 # Display the updated set
 print("Updated set after adding 60:", my_set)
 
+# Print the set in sorted order
+print("Sorted set:", sorted(my_set))
