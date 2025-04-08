@@ -28,3 +28,14 @@ else:
 
 # Not efficient for large sets — but useful if in is not allowed.
 
+
+
+# Method 3
+# Using set.intersection() method
+my_set = {1, 2, 3, 4, 5}
+if my_set.intersection({7}):
+    print("7 is present.")
+else:
+    print("7 is not present.")
+
+# Slightly advanced — returns a set of common elements.
