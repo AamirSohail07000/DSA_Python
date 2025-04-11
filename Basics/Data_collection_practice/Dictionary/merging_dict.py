@@ -12,3 +12,14 @@ merged_dict = dict1.copy()
 merged_dict.update(dict2)
 
 print("Merged Dictionary:", merged_dict)
+
+
+# Method 2: Using dictionary unpacking
+
+dict1 = { "a": 1, "b": 2 }
+dict2 = { "c": 3, "d": 4 }
+
+# Merge using unpacking
+merged_dict = { **dict1, **dict2 }
+
+print("Merged Dictionary:", merged_dict)
